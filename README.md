@@ -20,7 +20,7 @@ The model estimates spread using:
 Run the built-in example:
 
 ```bash
-python wildfire_spread_model.py
+python3 wildfire_spread_model.py
 ```
 
 Or import it:
@@ -59,7 +59,7 @@ arrival = model.simulate_arrival_time(
 ## Tests
 
 ```bash
-python -m unittest -v
+python3 -m unittest -v
 ```
 
 ## Notes
